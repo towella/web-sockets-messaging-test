@@ -1,0 +1,6 @@
+@WebSocketsMessagingTestApp.Server_HostAddress = http://localhost:5100
+
+GET {{WebSocketsMessagingTestApp.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
