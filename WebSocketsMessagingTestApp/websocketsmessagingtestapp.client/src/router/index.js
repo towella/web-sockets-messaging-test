@@ -5,12 +5,12 @@ import About from '../views/About.vue'
 const rootPath = '/web-sockets-messaging-test'
 const routes = [
 {
-    path: `/`,
+    path: `${rootPath}/`,
     name: 'Home',
     component: Home
 },
 {
-    path: `/about`,
+    path: `${rootPath}/about`,
     name: 'About',
     component: About
 }]
