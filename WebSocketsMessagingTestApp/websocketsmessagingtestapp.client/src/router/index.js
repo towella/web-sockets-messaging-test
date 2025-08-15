@@ -1,20 +1,23 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
-const routers = [{
-    path: '/home',
+
+const rootPath = '/web-sockets-messaging-test'
+const routes = [
+{
+    path: `/`,
     name: 'Home',
     component: Home
 },
 {
-    path: '/about',
+    path: `/about`,
     name: 'About',
     component: About
 }]
 
 const router = createRouter({
     history: createWebHistory(),
-    routers,
+    routes,
 })
 
 export default router
